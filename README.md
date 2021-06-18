@@ -1,2 +1,2 @@
 # Portfolio Website
-[nmarks99.github.io](nmarks99.github.io)
+https://nmarks99.github.io/
