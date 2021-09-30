@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Reaction Wheel</title>
+    <a id="#top"></a>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/5b5a21c613.js" crossorigin="anonymous"></script>
+    <style>
+        
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+
+        .box {
+            font-size: 18px;
+            margin-left: 10em;
+            margin-right: 10em;
+            padding: 20px;
+        }
+
+        .contaier {
+            font-size: 18px;
+        }
+
+    </style>
+</head>
+
+<!-- Navigation bar -->
+<body style="color: white; font-family: Georgia, 'Times New Roman', Times, serif; background-color:indigo;">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="../../index.html#aboutme">About</a></li>
+                    <li><a href="../../index.html#contact">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+     <!-- Top heading -->
+    <div class="jumbotron" style="background-color:black">
+        <div class="box">
+            <h1>Reaction Wheel</h1>
+            <p>
+                As an independent project to be counted towards the aerospace concentration portion of my mechanical engineering degree, I designed, prototyped, and tested
+                this reaction wheel with the goal of securing it inside a high power rocket to control its roll axis during flight.
+                <br>
+                <br>
+                The reaction wheel utilizes a proportional-integral-derivative (PID) closed-loop feedback controller to control the angular position of the system the reaction wheel
+                is attached to by continually adjusting the PWM frequency sent to a DC motor depending on the measured angular position from an IMU.   
+                The below images and text give a good summary of the success of the prototype
+                <br>
+                <br>
+                The code for this project can be found at my GitHub page: <a href="https://github.com/nmarks99/reaction-wheel">https://github.com/nmarks99/reaction-wheel</a>.
+                <br>
+                <a href="files/Reaction_Wheel_for_Active_Roll_Control_of_High_Power_Rockets.pdf" download style="color:cyan;">Click here to download an in-depth report on this project</a>
+                for more specific details on the project.
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Main body section  -->
+    <div class="container-fluid bg-3 text-center" style="background-color:indigo; padding: 50px" >
+
+        <!-- <p style="font-size: 32px;">
+           The quick brown fox jumped over the lazy dog
+        </p> -->
+
+        <br>
+
+        <div class="row">
+            
+            <div class="col-lg-4">
+                <p style="font-size:18px">
+                    The plot below shows a case where the system was perturbed by −152.31◦. The reaction wheel
+                    actively responded to this perturbation and brought the system to within 10◦ of its target angle,
+                    −7.69◦, within just 1.12 seconds, and to within 5◦ of its target angle in 2.44 seconds.
+                </p>
+                <img src="imgs/result1.png" width="100%" style="margin: 5px 5px 5px 5px;" alt="Image">
+            </div>
+
+            <div class="col-lg-4">
+                <p style="font-size:18px">
+                    This gif shows the a similar result to what is show by the plot on the right side of the page. After perturbing the system,
+                    the reaction wheel quickly responds by accelerating the mass at the bottom of the device to produce a corresponding torque. This is the start 
+                    of the negative feedback loop which eventualy restults in the system arriving back at its target position.
+                </p>
+                <img src="imgs/reaction_wheel.gif" style="margin: 5px 5px 5px 5px;" width="100%" alt="Image">
+            </div>
+            
+            <div class="col-lg-4">
+                <p style="font-size:18px">
+                    Plot showing the angular position vs. time after successive perturbations were produced in both directions. This is similar to the example demonstration showing
+                    in the gif in the center of the page.
+                    <br>
+                    <br>
+                </p>
+                <img src="imgs/result2.png" style="margin: 5px 5px 5px 5px;" width="100%" alt="Image">
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html> 
