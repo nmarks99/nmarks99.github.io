@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 '''
 This script updates my resume by prompting the user to select the new resume, then copied it to the files/ directory.
 Finally, it adds, commits, and pushes the changes.
