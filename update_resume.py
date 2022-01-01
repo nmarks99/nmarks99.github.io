@@ -1,3 +1,8 @@
+'''
+This script updates my resume by prompting the user to select the new resume, then copied it to the files/ directory.
+Finally, it adds, commits, and pushes the changes.
+'''
+
 import tkinter as tk
 from tkinter import filedialog
 import os
