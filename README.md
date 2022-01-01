@@ -1,9 +1,13 @@
 # Portfolio Website
 https://nmarks99.github.io/
 
+To open the website directly from the command line, simply run: 
+```
+./openit.py
+```
 
 ## Updating resume
-To update the resume on the website, run 
+To update the resume on the website, run:
 ```
 ./update_resume.py
 ```
