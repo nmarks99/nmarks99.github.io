@@ -13,7 +13,6 @@ import os
 root = tk.Tk()
 root.withdraw()
 resume_path = filedialog.askopenfilename(initialdir="~/OneDrive/Documents/Career/Resumes") # Ask user to select data
-print('\n\nPath to resume: %s\n' % resume_path)
 root.destroy()
 
 # Copy the file to the files/ directory, then add, commit, and push
