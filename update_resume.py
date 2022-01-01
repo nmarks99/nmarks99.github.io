@@ -17,4 +17,5 @@ root.destroy()
 
 # Copy the file to the files/ directory, then add, commit, and push
 os.system("cp {} ./files".format(resume_path))
-os.system("git add --all && git commit -a -m'update resume' && git push")
+os.system("git add --all")
+os.system("git commit -a -m'update resume' && git push")
