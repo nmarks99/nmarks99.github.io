@@ -1,14 +1,9 @@
 # Portfolio Website
 https://nmarks99.github.io/
 
-To open the website directly from the command line, simply run: 
-```
-./openit.py
-```
+## TODO:
 
-## Updating resume
-To update the resume on the website, run:
-```
-./update_resume.py
-```
-and choose the new resume in the file explorer prompt that opens.
+1. Fill in content for projects
+2. Fill in about section and add skills
+3. Add resume 
+4. Make `update_resume` script 
