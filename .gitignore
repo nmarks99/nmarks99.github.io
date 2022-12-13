@@ -11,6 +11,3 @@ Gemfile.lock
 # Log Files
 *.log
 
-# temporary
-*.gif 
-*.png
