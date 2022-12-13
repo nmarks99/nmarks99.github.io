@@ -10,7 +10,7 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I am currently pursuing a M.S. degree in mechanical engineering at Northwestern University. The focus of my master's degree is specifically in the areas of robotics, dynamics, and controls. My primary interests however are in aerospace engineering, and more specifically, applying my knowledge and skills in robotics, embedded systems, feedback control systems, and dynamics modelling/simulation to aerospace problems.
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
