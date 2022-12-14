@@ -9,11 +9,13 @@ remote_theme  : YoussefRaafatNasry/portfolYOU
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-pdf-embed
 
 
 ### Navbar Settings ###
 nav_exclude:  # The following paths are excluded from navbar
   - pages/blog.html
+  - pages/about.md
   - pages/tags.html
   - pages/404.html
   - pages/index.md
