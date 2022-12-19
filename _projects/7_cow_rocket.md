@@ -3,8 +3,9 @@
 name: NAR Level 2 Certification Rocket
 tools: [Composites manufacturing, 3D printing, CAD, CFD, ANSYS]
 image: images/cow_pad.png
-description: As launch vehicle lead for the 2021 NUSTARS NASA Student Launch Team at Northwestern University, I lead the design and construction of this high-power rocket.
+description: I build this high power rocket for my Level 2 high power rocket certification with the National Association of Rocketry (NAR)
 
 ---
 
-Description of the cow rocket goes here
+# Description of the cow rocket goes here
+asdlkfj jnang ekjv ;ef ;jnj slgrt ;jsdncljb 
