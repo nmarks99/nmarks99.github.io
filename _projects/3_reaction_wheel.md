@@ -2,7 +2,7 @@
 
 name: Reaction Wheel
 tools: [Arduino, PID control, C/C++, emdedded systems]
-image: ../images/reaction_wheel.gif
+image: ../images/reaction_wheel.png
 description: A reaction wheel prototype for active roll control of high-power rockets
 
 ---
