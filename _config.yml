@@ -15,10 +15,10 @@ plugins:
 ### Navbar Settings ###
 nav_exclude:  # The following paths are excluded from navbar
   - pages/blog.html
-  - pages/about.md
   - pages/tags.html
+  - pages/about.md
   - pages/404.html
-  - pages/index.md
+  # - pages/index.md
 
 
 ### Author Info ###
