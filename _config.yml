@@ -9,7 +9,7 @@ remote_theme  : YoussefRaafatNasry/portfolYOU
 ### Plugins ###
 plugins:
   - jemoji
-  - jekyll-pdf-embed
+  # - jekyll-pdf-embed
 
 
 ### Navbar Settings ###
