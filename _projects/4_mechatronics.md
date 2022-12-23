@@ -20,7 +20,7 @@ Although similar functionality could be achieved through purchasing a pre-made A
 microcontroller board, the process of connecting and interfacing with various peripherals from scratch has
 given me a much more in-depth and intimate understanding of how each component functions.
 
-Instead of using the Arduino framework or any PIC32 libraries, I programmed everything from from scratch in C.
+Instead of using the Arduino framework or any PIC32 libraries, I programmed everything from scratch in C.
 This helped me to learn how to write low-level code for various communication protocols from scratch such as
 UART, I2C, and SPI. Another useful technique that required me to code at a very low level was bit-banging,
 which was used to produce the rainbow affect on the Neopixel LEDs. Furthermore, this project gave me the
