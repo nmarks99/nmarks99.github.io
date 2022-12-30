@@ -2,8 +2,8 @@
 
 name: Scratch Built High Power Rocket
 tools: [Composites manufacturing, 3D printing, CAD, CFD, ANSYS]
-image: images/tnmd_assembling.png
-caption: As launch vehicle lead for the 2021 NUSTARS NASA Student Launch Team at Northwestern University, I lead the design and construction of this high-power rocket.
+image: images/launch_clip.gif
+description: As launch vehicle lead for the 2021 NUSTARS NASA Student Launch Team at Northwestern University, I lead the design and construction of this high-power rocket.
 
 ---
 
