@@ -33,7 +33,7 @@ the hot water over the power, and stirs the mixture with the spoon.
 The main challenge of this project was developing a MoveIt! API for ROS2 in Python.
 MoveIt! is a ROS library designed to make moving a robot to specified locations simplier,
 by handling all the math (forward/inverse kinematics etc.) under the hood. Since an API for 
-MoveIt! in ROS2 did not exist yet in Python (one does exist in C++) we decided to write out own 
+MoveIt! in ROS2 did not exist yet in Python (one does exist in C++) we decided to write our own 
 API since the rest of our project was to use Python. We did this by intercepting MoveIt! action 
 messages from the C++ API so we could figure out how to construct the messages in our Python API.
 

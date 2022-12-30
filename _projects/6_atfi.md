@@ -11,7 +11,9 @@ description: A CNC machine to automate the hand-layup process used in manufactur
 
 This device was desgined, built, and tested during my internship
 at Applied Thin Films Inc. during the my time working there from
-July 2021 until September 2022.
+July 2021 until September 2022. Unfortunately, since some of this
+work is proprietary, I cannot show or give any more details than 
+are provided here.
 
 This project allowed me to utilize my skills and aquire new ones
 relating to designing systems that feature mechanical and electrical
