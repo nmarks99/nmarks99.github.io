@@ -7,5 +7,5 @@ bundle exec jekyll serve
 ```
 
 After pushing to the `main` branch, the project will build automatically and 
-host it on GitHub pages.
+be hosted on GitHub pages.
 
